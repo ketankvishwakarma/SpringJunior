@@ -1,3 +1,4 @@
+<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="spring" %>
@@ -10,12 +11,13 @@
 </head>
 <body bgcolor="#d3d3d3" topmargin="200px">
 	<spring:form commandName="loginObj" action="/SpringJunior/validateLogin">
-	
+	<B>Server Time:: </B><%=new Date() %>
 	
 	<table align="center" border="0px" bordercolor="#FFFFFF" width="40%" background="#d3d3d3" >
 		<thead>
 			<tr>
 				<th>Welcome To <b><i>NELITO</i></b></th>
+			
 			</tr>
 			
 		</thead>
