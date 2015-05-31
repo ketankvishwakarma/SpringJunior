@@ -14,11 +14,11 @@
 
 
 	<mvc:annotation-driven />
-	<context:component-scan base-package="bookstore.controller" />
+	<context:component-scan base-package="org.ketan.sj.controller" />
 	
 	
 	<bean name="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix"><value>/WEB-INF/views/</value></property>
+		<property name="prefix"><value>/WEB-INF/JSP/</value></property>
 		<property name="suffix"><value>.jsp</value></property>
 	</bean>
 	
